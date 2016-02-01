@@ -1,11 +1,11 @@
-# koa-less
+# koa-less2
 
-Less middleware for Koa
+Less2 middleware for Koa
 
 ## Installation
 
 ```js
-$ npm install koa-less
+$ npm install koa-less2
 ```
 
 ## Example

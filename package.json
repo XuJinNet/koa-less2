@@ -1,26 +1,30 @@
 {
-  "name": "koa-less",
-  "version": "0.0.3",
-  "description": "Less middleware for Koa",
-  "main": "index",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/chosecz/koa-less.git"
-  },
-  "keywords": [
-    "koa",
-    "less"
-  ],
-  "author": "Josef Sima <josef.sima@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/chosecz/koa-less/issues"
-  },
-  "homepage": "https://github.com/chosecz/koa-less",
-  "dependencies": {
-    "less-middleware": "~1.0.3"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+    "name": "koa-less2",
+    "version": "1.0.0",
+    "description": "Less2 middleware for Koa",
+    "main": "index",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/XuJinNet/koa-less2.git"
+    },
+    "keywords": [
+        "koa",
+        "less",
+        "less2"
+    ],
+    "author": "Xu Jin",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/XuJinNet/koa-less2/issues"
+    },
+    "homepage": "https://github.com/XuJinNet/koa-less2",
+    "dependencies": {
+        "less-middleware": "^2.0.1"
+    },
+    "engines": {
+        "node": ">=0.4.2"
+    }
 }
