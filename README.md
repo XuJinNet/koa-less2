@@ -1,6 +1,6 @@
 # koa-less2x
 
-Less2 middleware for Koa
+Less2 middleware for Koa. A wrapper of less-middleware.
 
 ## Installation
 
