@@ -1,6 +1,6 @@
 {
-    "name": "koa-less2",
-    "version": "1.0.0",
+    "name": "koa-less2x",
+    "version": "0.1.0",
     "description": "Less2 middleware for Koa",
     "main": "index",
     "scripts": {
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/XuJinNet/koa-less2.git"
+        "url": "https://github.com/XuJinNet/koa-less2x.git"
     },
     "keywords": [
         "koa",
@@ -18,9 +18,9 @@
     "author": "Xu Jin",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/XuJinNet/koa-less2/issues"
+        "url": "https://github.com/XuJinNet/koa-less2x/issues"
     },
-    "homepage": "https://github.com/XuJinNet/koa-less2",
+    "homepage": "https://github.com/XuJinNet/koa-less2x",
     "dependencies": {
         "less-middleware": "^2.0.1"
     },
