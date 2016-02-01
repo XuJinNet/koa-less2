@@ -1,30 +1,30 @@
 {
-    "name": "koa-less2x",
-    "version": "0.1.0",
-    "description": "Less2 middleware for Koa",
-    "main": "index",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/XuJinNet/koa-less2x.git"
-    },
-    "keywords": [
-        "koa",
-        "less",
-        "less2"
-    ],
-    "author": "Xu Jin",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/XuJinNet/koa-less2x/issues"
-    },
-    "homepage": "https://github.com/XuJinNet/koa-less2x",
-    "dependencies": {
-        "less-middleware": "^2.0.1"
-    },
-    "engines": {
-        "node": ">=0.4.2"
-    }
+  "name": "koa-less2x",
+  "version": "0.1.1",
+  "description": "Less2 middleware for Koa",
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XuJinNet/koa-less2x.git"
+  },
+  "keywords": [
+    "koa",
+    "less",
+    "less2"
+  ],
+  "author": "Xu Jin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XuJinNet/koa-less2x/issues"
+  },
+  "homepage": "https://github.com/XuJinNet/koa-less2x",
+  "dependencies": {
+    "less-middleware": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=0.4.2"
+  }
 }
