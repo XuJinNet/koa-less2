@@ -1,6 +1,6 @@
 {
   "name": "koa-less2x",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Less2 middleware for Koa",
   "main": "index",
   "scripts": {
