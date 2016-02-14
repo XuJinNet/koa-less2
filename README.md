@@ -5,7 +5,7 @@ Less2 middleware for Koa. A wrapper of less-middleware.
 ## Installation
 
 ```js
-$ npm install koa-less2
+$ npm install koa-less2x
 ```
 
 ## Example
