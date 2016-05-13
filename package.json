@@ -1,7 +1,7 @@
 {
   "name": "koa-less2x",
-  "version": "1.0.1",
-  "description": "Less2 middleware for Koa",
+  "version": "2.0.0",
+  "description": "Less2 middleware for koa2",
   "main": "index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +12,7 @@
   },
   "keywords": [
     "koa",
+    "koa2",
     "less",
     "less2"
   ],
@@ -25,6 +26,6 @@
     "less-middleware": "^2.0.1"
   },
   "engines": {
-    "node": ">=0.4.2"
+    "node": ">=4.0.0"
   }
 }

@@ -7,16 +7,18 @@
 
 let lessMiddleware = require('less-middleware');
 
-function less(req, res, options) {
-    return function (callback) {
-        lessMiddleware.apply(this, options)(req, res, callback);
-    };
-}
-
 module.exports = function () {
-    var options = arguments;
-    return function* (next) {
-        yield less(this.req, this.res, options);
-        yield next;
+    let options = arguments;
+    return async function (ctx, next) {
+        await new Promise(function (resolve, reject) {
+            lessMiddleware.apply(ctx, options)(ctx.req, ctx.res, function (error) {
+                if(!error) {
+                    resolve();
+                } else {
+                    reject(error);
+                }
+            });
+        });
+        await next();
     };
 };

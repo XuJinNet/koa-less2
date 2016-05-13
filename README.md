@@ -1,6 +1,6 @@
 # koa-less2x
 
-Less2 middleware for Koa. A wrapper of less-middleware.
+Less2 middleware for koa2. A wrapper of less-middleware.
 
 ## Installation
 
@@ -11,10 +11,10 @@ $ npm install koa-less2x
 ## Example
 
 ```js
-var less = require('koa-less');
+var less = require('koa-less2x');
 var serve = require('koa-static');
 var koa = require('koa');
-var app = koa();
+var app = new koa();
 
 app.use(less('./public'));
 
@@ -141,7 +141,7 @@ The following are the defaults used by the middleware:
 Example of use:   
 ```js
 var path=require('path');
-app.use(require('koa-less')('/my/less/source/path', {
+app.use(require('koa-less2x')('/my/less/source/path', {
   dest: path.join(__dirname, 'public')
 }));
 ```
@@ -154,8 +154,8 @@ Make sure you're declaring less-middleware before your static middleware, if you
 
 
 ```js
-var lessMiddleware = require('koa-less');
-var app = koa();
+var lessMiddleware = require('koa-less2x');
+var app = new koa();
 app.use(lessMiddleware(__dirname + '/public'));
 app.use(require('koa-static')(__dirname + '/public'));
 ```
