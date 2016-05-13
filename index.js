@@ -9,8 +9,8 @@ let lessMiddleware = require('less-middleware');
 
 module.exports = function () {
     let options = arguments;
-    return async function (ctx, next) {
-        await new Promise(function (resolve, reject) {
+    return function (ctx, next) {
+        return new Promise(function (resolve, reject) {
             lessMiddleware.apply(ctx, options)(ctx.req, ctx.res, function (error) {
                 if(!error) {
                     resolve();
@@ -18,7 +18,8 @@ module.exports = function () {
                     reject(error);
                 }
             });
+        }).then(function () {
+            return next();
         });
-        await next();
     };
 };
